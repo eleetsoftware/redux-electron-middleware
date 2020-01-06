@@ -1,6 +1,6 @@
 {
   "name": "@eleetsoftware/redux-electron-middleware",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Redux middleware to keep your redux state in sync with electron.",
   "main": "dist/software.js",
   "jsnext:main": "dist/software.es.js",
@@ -29,6 +29,7 @@
     "prepublish": "npm run build",
     "rollup": "rollup -c rollup.config.js",
     "test": "jest",
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "update": "ncu -u -f '/^(?!electron)$/' && npm i && npm run healthcheck"
   },
   "peerDependencies": {
@@ -53,10 +54,10 @@
     "esdoc-standard-plugin": "1.0.0",
     "eslint": "6.8.0",
     "eslint-config-airbnb": "17.1.1",
-    "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-jest": "23.3.0",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-jest": "22.15.1",
     "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react": "7.17.0",
     "jest": "24.9.0",
     "npm-check-updates": "4.0.1",
     "redux": "4.0.5",
