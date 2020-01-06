@@ -1,6 +1,6 @@
 {
   "name": "@eleetsoftware/redux-electron-middleware",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Redux middleware to keep your redux state in sync with electron.",
   "main": "dist/software.js",
   "jsnext:main": "dist/software.es.js",
