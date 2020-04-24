@@ -47,7 +47,7 @@
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
     "babelrc-rollup": "3.0.0",
-    "coveralls": "3.0.9",
+    "coveralls": "3.0.14",
     "electron": "8.2.3",
     "esdoc": "1.1.0",
     "esdoc-ecmascript-proposal-plugin": "1.0.0",
