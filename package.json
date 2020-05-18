@@ -59,7 +59,7 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.17.0",
     "jest": "24.9.0",
-    "npm-check-updates": "4.0.1",
+    "npm-check-updates": "6.0.1",
     "redux": "4.0.5",
     "rimraf": "3.0.0",
     "rollup": "1.32.1",
